@@ -1,0 +1,114 @@
+{
+  "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
+  "projectname": "WmsWeapp",
+  "setting": {
+    "compileHotReLoad": false,
+    "bigPackageSizeSupport": true,
+    "urlCheck": false
+  },
+  "libVersion": "3.4.6",
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "in/pages/linkedOrder/index",
+          "pathName": "in/pages/linkedOrder/index",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "in/pages/baseInfo/index",
+          "pathName": "in/pages/baseInfo/index",
+          "query": "id=2084&receiptOrderType=PROCURE_WAREHOUSING&receiptOrderNo=R-20240625201756-1333&status=2",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "wuliao/pages/details/index",
+          "pathName": "wuliao/pages/details/index",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "in/pages/baseInfo/index",
+          "pathName": "in/pages/baseInfo/index",
+          "query": "id=1831&receiptOrderType=PROCURE_WAREHOUSING&receiptOrderNo=R-20240621094002-761&status=5",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "仓库",
+          "pathName": "my/pages/cangKu/manage",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "out/pages/wuLiaoList/list",
+          "pathName": "out/pages/wuLiaoList/list",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "out/pages/baseInfo/index",
+          "pathName": "out/pages/baseInfo/index",
+          "query": "id=836&shipmentOrderType=USE_OUTBOUND&shipmentOrderNo=E-20240621132148-0&status=1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "out/pages/baseInfo/index",
+          "pathName": "out/pages/baseInfo/index",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "out/pages/baseInfo/index1",
+          "pathName": "out/pages/baseInfo/index1",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "出库",
+          "pathName": "out/pages/query/index",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "出库",
+          "pathName": "out/pages/query/index1",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "入库",
+          "pathName": "in/pages/list/index",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "详情",
+          "pathName": "inventory/pages/baseInfo/index",
+          "query": "id=20240619113316&receiptOrderType=undefined&receiptOrderNo=undefined",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "盘点",
+          "pathName": "inventory/pages/query/index",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

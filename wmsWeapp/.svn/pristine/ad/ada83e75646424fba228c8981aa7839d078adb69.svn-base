@@ -1,0 +1,3 @@
+$primary-color: #0091FF;
+$primary-color-start: $primary-color;
+$primary-color-end: #55A2FF;
