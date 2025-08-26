@@ -1,0 +1,31 @@
+view {
+  box-sizing: border-box;
+  font-family: PingFang SC;
+}
+* {
+  box-sizing: border-box;
+}
+// input {
+//   color: rgba($color: #000000, $alpha: 0.8)
+// }
+page, .taro_page {
+  background-color: #f3f5f7 !important;
+  --nut-checkbox-label-margin-left: 15px;
+  --nut-tabs-titles-background-color: #fff;
+  --nut-tabs-horizontal-tab-line-color: k#0091FF;
+  --nut-input-disabled-color: #323233;
+  --nut-radio-icon-disable-color2: #0091FF;
+  --nut-radio-label-disable-color: #323233;
+  --nut-textarea-disabled-color: #323233;
+  --nut-cell-desc-color: #323233;
+}
+
+.red {
+  color: red;
+}
+.white {
+  background-color: #fff;
+}
+.h5-input {
+  color: #000;
+}

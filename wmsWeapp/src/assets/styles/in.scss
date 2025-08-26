@@ -1,0 +1,205 @@
+@import './common.scss';
+page, .taro_page {
+  background-color: #f3f5f7;
+}
+
+.in-baseinfo-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 98vh;
+  .nut-tabs__content {
+    height: calc(100% - 80px);
+  }
+  .nut-tabs.horizontal {
+    overflow-y: auto;
+  }
+  .nut-tab-pane {
+    padding: 0;
+  }
+  .btn-wrapper {
+    flex: 1;
+  }
+  .first-title {
+    font-size: 32px;
+    color: #303030;
+    font-weight: bold;
+  }
+  .grid-20 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .pane-card {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 40px 32px 38px 32px;
+    margin-top: 20px;
+    .count-row {
+      display: flex;
+    }
+    .icon-32 {
+      width: 32px;
+      height: 32px;
+      margin-right: 20px;
+    }
+    .link {
+      color: #0091ff;
+    }
+    .count-wrapper {
+      display: flex;
+      flex: 1;
+      .icon image {
+        width: 80px;
+        height: 80px;
+        margin-right: 36px;
+      }
+      .count {
+        color: #0b77ff;
+        font-size: 36px;
+        margin-bottom: 8px;
+      }
+      .count-red {
+        @extend .count;
+        color: #f63c54;
+      }
+      .name {
+        font-size: 28px;
+      }
+    }
+  }
+}
+.white-card, .white-card-row, .grey-card, .grey-card-row {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  border-radius: 12px;
+  background-color: #f4f7fa;
+  padding: 0 20px;
+  .item {
+    flex: 1;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .item div:first-child {
+    font-size: 28px;
+    margin-bottom: 12px;
+  }
+  .item div:last-child {
+    font-size: 32px;
+    padding-bottom: 20px;
+  }
+}
+.white-card {
+  background-color: #fff;
+}
+.white-card-row {
+  flex-direction: row;
+  background-color: #fff;
+}
+.grey-card-row {
+  flex-direction: row;
+}
+.second-card {
+  margin-top: 20px;
+  padding: 24px 20px;
+  background-color: #f4f7fa;
+}
+.wuliao {
+  background-color: #fff;
+  display: flex;
+  border: 1px solid #f5f5f5;
+  padding: 0 0 20px 0;
+  &:last-child {
+    border: none;
+  }
+  .check-box {
+    padding-top: 20px;
+  }
+  .grey-card {
+    width: 100%;
+  }
+  .wuliao-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: #323233;
+    font-size: 32px;
+
+    div:first-child {
+      flex: 1;
+    }
+
+    .edit-btn {
+      color: #199cff;
+      font-size: 24px;
+    }
+  }
+  
+  .wuliao-class {
+    color: #666;
+    display: flex;
+    line-height: 2;
+    font-size: 24px;
+    .wuliao-img {
+      width: 120px;
+      height: 120px;
+    }
+    .wuliao-title {
+      width: 240px;
+      padding-left: 20px;
+      color: rgba(0, 0, 0, 0.5);
+    }
+    .wuliao-value {
+      padding-right: 20px;
+      color: #323233;
+      flex: 1;
+      text {
+        word-break: break-all;
+      }
+    }
+  }
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+    .wuliao-class {
+      flex: 1;
+    }
+  }
+  .doc-row-column {
+    flex: 1;
+    text-align: center;
+    flex-direction: column;
+  }
+  .blue-card {
+    display: flex;
+    padding: 14px 40px;
+    background-color: #f4f9ff;
+    margin-bottom: 20px;
+    font-size: 24px;
+    position: relative;
+    .label {
+      margin-bottom: 20px;
+    }
+    .value {
+      font-size: inherit;
+    }
+    .doc-row-column:first-child {
+      &::after {
+        position: absolute;
+        content: '';
+        left: 50%;
+        top: 40px;
+        height: 40px;
+        width: 2px;
+        background-color: #dddddd;
+      }
+    }
+  }
+
+  .green-card {
+    @extend .blue-card;
+    background-color: #f7fcfd;
+  }
+}
