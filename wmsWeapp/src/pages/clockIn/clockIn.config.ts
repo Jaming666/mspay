@@ -1,4 +1,4 @@
 export default definePageConfig({
-  navigationBarTitleText: '物料详情',
+  navigationBarTitleText: '打卡',
   usingComponents: {}
 })
